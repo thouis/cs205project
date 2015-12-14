@@ -1,4 +1,4 @@
-#### Harvard CS205 Final Project - Parallel Point Based Value Iteration Algorithm for Solving POMDPs
+# Harvard CS205 Final Project - Parallel Point Based Value Iteration Algorithm for Solving POMDPs
 ============================================
 
 ### Authors
@@ -56,8 +56,10 @@ We tested the algorithm on a simple POMDP problem domain called the Tiger Proble
 
 Imagine an agent standing in front of two closed doors. Behind one of the doors is a tiger and behind the other is a large reward. If the agent opens the door with the tiger, then a large penalty is received (presumably in the form of some amount of bodily injury). Instead of opening one of the two doors, the agent can listen, in order to gain some information about the location of the tiger. Unfortunately, listening is not free; in addition, it is also not entirely accurate. There is a chance that the agent will hear a tiger behind the left-hand door when the tiger is really behind the right-hand door, and vice versa.
 
+### Files
 
-
+1. main.cu - CUDA file with all the code
+2. pomdp.h - Header file that defines POMDP
 
 ### Machine Used
 
